@@ -54,7 +54,7 @@ SECURITY_PACKAGES="aide apparmor apparmor-profiles apparmor-utils auditd audispd
                   debsums debsecan unattended-upgrades apt-listbugs libpam-passwdqc yelp-tools apport sysstat auditd chkrootkit 
                   needrestart apt-show-versions password-checker lynis unattended-upgrades lsb-release sysstat systemd-journal-remote 
                   apt-listbugs fail2ban ufw rsyslog ca-certificates acl tcpdump nmap chrony arch-audit haveged apt-transport-https gnupg2 
-                  sudo coreutils bcrypt binutils bolt bsdmainutils bsdutils busybox-static curl"
+                  sudo coreutils bcrypt binutils bolt bsdmainutils bsdutils busybox-static curl wget"
 
 # Log file
 touch "$LOG_FILE"
