@@ -4,6 +4,8 @@ A robust, interactive deployment tool for building production-ready Debian 12 se
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/digitalxs)
 
+**Project sponsored by [DigitalXS.ca](https://digitalxs.ca) and Luis Miguel P. Freitas**
+
 ## Features and Security Components
 
 | Category | Features | Software/Tools Used |
