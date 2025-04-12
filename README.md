@@ -28,11 +28,6 @@ Will satisfy most Military and Government Security Requirements.
 
 If you're starting with a fresh Debian 12 installation, you can download and run the script with this single command:
 
-```bash
-# As root user
-curl -sSL https://raw.githubusercontent.com/DigitalXS/FortifyDebian/main/debian12-hardening.sh -o /tmp/debian12-hardening.sh && chmod +x /tmp/debian12-hardening.sh && /tmp/debian12-hardening.sh
-```
-
 ### Manual Installation
 
 1. Login as root or become root:
