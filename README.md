@@ -1,6 +1,7 @@
 # <img src="https://www.debian.org/logos/openlogo-nd.svg" alt="Debian Logo" width="40"/> FortifyDebian
 
 A robust, interactive deployment tool for building production-ready Debian 12 servers with enterprise-grade security. FortifyDebian transforms a minimal Debian installation into a fully hardened server environment through an intuitive wizard-driven approach.
+
 Will satisfy most Military and Government Security Requirements.
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/digitalxs)
