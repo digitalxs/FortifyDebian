@@ -1,4 +1,4 @@
-# FortifyDebian
+# <img src="https://www.debian.org/logos/openlogo-nd.svg" alt="Debian Logo" width="40"/> FortifyDebian
 
 A robust, interactive deployment tool for building production-ready Debian 12 servers with enterprise-grade security. FortifyDebian transforms a minimal Debian installation into a fully hardened server environment through an intuitive wizard-driven approach.
 
@@ -18,19 +18,56 @@ A robust, interactive deployment tool for building production-ready Debian 12 se
 | **Automatic Updates** | • Unattended security updates<br>• Package integrity verification<br>• Customizable update settings | • unattended-upgrades<br>• apt-listchanges<br>• apt-listbugs<br>• debsecan |
 | **System Backup** | • Critical system files backup<br>• Configuration files preservation<br>• Automated scheduled backups | • rsync<br>• cron |
 
-## Usage
+## Installation & Usage
 
-To use FortifyDebian:
+### Quick Install (Single Command)
 
-1. Clone this repository
-2. Make the script executable: `chmod +x debian12-hardening.sh`
-3. Run with root privileges: `sudo ./debian12-hardening.sh`
-4. Follow the interactive prompts to customize your security configuration
+If you're starting with a fresh Debian 12 installation, you can download and run the script with this single command:
+
+```bash
+# As root user
+curl -sSL https://raw.githubusercontent.com/DigitalXS/FortifyDebian/main/debian12-hardening.sh -o /tmp/debian12-hardening.sh && chmod +x /tmp/debian12-hardening.sh && /tmp/debian12-hardening.sh
+```
+
+### Manual Installation
+
+1. Login as root or become root:
+   ```bash
+   # If not already root
+   su -
+   ```
+
+2. Install git (if not already installed):
+   ```bash
+   apt update && apt install -y git
+   ```
+
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/DigitalXS/FortifyDebian.git
+   ```
+
+4. Change to the directory:
+   ```bash
+   cd FortifyDebian
+   ```
+
+5. Make the script executable:
+   ```bash
+   chmod +x debian12-hardening.sh
+   ```
+
+6. Run the script:
+   ```bash
+   ./debian12-hardening.sh
+   ```
+
+7. Follow the interactive prompts to customize your security configuration
 
 ## Requirements
 
 - Debian 12 (Bookworm) minimal installation
-- Root access
+- Root access (not sudo - the script will install sudo if needed)
 - Internet connection for package installation
 
 ## Detailed Changes
