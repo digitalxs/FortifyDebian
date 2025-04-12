@@ -167,4 +167,4 @@ If you find FortifyDebian useful, consider supporting its development:
 
 ## Disclaimer
 
-This hardening script makes significant changes to your system configuration. Always test thoroughly in a non-production environment before deploying to production systems.
+This hardening script makes significant changes to your system configuration on Debian 12. It will make a hardened server from a default Debian 12 installation. Always test thoroughly in a non-production environment before deploying to production systems.
